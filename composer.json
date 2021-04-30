@@ -1,0 +1,22 @@
+{
+  "name": "kefir/calltracker",
+  "description": "CallTracker package",
+  "version": "1.2.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Baryshnikov Roman",
+      "email": "nagach@kefir-media.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "ext-json": "*",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kefir\\CallTracker\\": "src/"
+	}
+  }
+}
